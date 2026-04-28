@@ -1,0 +1,962 @@
+[
+  {
+    "code": "ABQ",
+    "name": "Albuquerque International Sunport",
+    "city": "Albuquerque",
+    "state": "NM"
+  },
+  {
+    "code": "ANC",
+    "name": "Ted Stevens Anchorage International Airport",
+    "city": "Anchorage",
+    "state": "AK"
+  },
+  {
+    "code": "ATL",
+    "name": "Hartsfield-Jackson Atlanta International Airport",
+    "city": "Auburn",
+    "state": "AL"
+  },
+  {
+    "code": "AUS",
+    "name": "Austin-Bergstrom International Airport",
+    "city": "Austin",
+    "state": "TX"
+  },
+  {
+    "code": "AZO",
+    "name": "Kalamazoo/Battle Creek International Airport",
+    "city": "Kalamazoo",
+    "state": "MI"
+  },
+  {
+    "code": "BDL",
+    "name": "Bradley International Airport",
+    "city": "Storrs",
+    "state": "CT"
+  },
+  {
+    "code": "BGR",
+    "name": "Bangor International Airport",
+    "city": "Orono",
+    "state": "ME"
+  },
+  {
+    "code": "BHM",
+    "name": "Birmingham-Shuttlesworth International Airport",
+    "city": "Tuscaloosa",
+    "state": "AL"
+  },
+  {
+    "code": "BMI",
+    "name": "Central Illinois Regional Airport",
+    "city": "Normal",
+    "state": "IL"
+  },
+  {
+    "code": "BNA",
+    "name": "Nashville International Airport",
+    "city": "Bowling Green",
+    "state": "KY"
+  },
+  {
+    "code": "BOI",
+    "name": "Boise Airport",
+    "city": "Boise",
+    "state": "ID"
+  },
+  {
+    "code": "BOS",
+    "name": "Logan International Airport",
+    "city": "Boston",
+    "state": "MA"
+  },
+  {
+    "code": "BTR",
+    "name": "Baton Rouge Metropolitan Airport",
+    "city": "Baton Rouge",
+    "state": "LA"
+  },
+  {
+    "code": "BTV",
+    "name": "Burlington International Airport",
+    "city": "Burlington",
+    "state": "VT"
+  },
+  {
+    "code": "BUF",
+    "name": "Buffalo Niagara International Airport",
+    "city": "Buffalo",
+    "state": "NY"
+  },
+  {
+    "code": "BWI",
+    "name": "Baltimore/Washington International Thurgood Marshall Airport",
+    "city": "College Park",
+    "state": "MD"
+  },
+  {
+    "code": "BZN",
+    "name": "Bozeman Yellowstone International Airport",
+    "city": "Bozeman",
+    "state": "MT"
+  },
+  {
+    "code": "CAE",
+    "name": "Columbia Metropolitan Airport",
+    "city": "Columbia",
+    "state": "SC"
+  },
+  {
+    "code": "CAK",
+    "name": "Akron-Canton Airport",
+    "city": "Akron",
+    "state": "OH"
+  },
+  {
+    "code": "CHO",
+    "name": "Charlottesville-Albemarle Airport",
+    "city": "Charlottesville",
+    "state": "VA"
+  },
+  {
+    "code": "CHS",
+    "name": "Charleston International Airport",
+    "city": "Charleston",
+    "state": "SC"
+  },
+  {
+    "code": "CID",
+    "name": "The Eastern Iowa Airport",
+    "city": "Iowa City",
+    "state": "IA"
+  },
+  {
+    "code": "CLE",
+    "name": "Cleveland Hopkins International Airport",
+    "city": "Cleveland",
+    "state": "OH"
+  },
+  {
+    "code": "CLT",
+    "name": "Charlotte Douglas International Airport",
+    "city": "Boone",
+    "state": "NC"
+  },
+  {
+    "code": "CMH",
+    "name": "John Glenn Columbus International Airport",
+    "city": "Columbus",
+    "state": "OH"
+  },
+  {
+    "code": "CMI",
+    "name": "University of Illinois Willard Airport",
+    "city": "Champaign",
+    "state": "IL"
+  },
+  {
+    "code": "CVG",
+    "name": "Cincinnati/Northern Kentucky International Airport",
+    "city": "Cincinnati",
+    "state": "OH"
+  },
+  {
+    "code": "DAL",
+    "name": "Dallas Love Field",
+    "city": "Richardson",
+    "state": "TX"
+  },
+  {
+    "code": "DAY",
+    "name": "Dayton International Airport",
+    "city": "Dayton",
+    "state": "OH"
+  },
+  {
+    "code": "DCA",
+    "name": "Ronald Reagan Washington National Airport",
+    "city": "Washington",
+    "state": "DC"
+  },
+  {
+    "code": "DEN",
+    "name": "Denver International Airport",
+    "city": "Boulder",
+    "state": "CO"
+  },
+  {
+    "code": "DFW",
+    "name": "Dallas Fort Worth International Airport",
+    "city": "Denton",
+    "state": "TX"
+  },
+  {
+    "code": "DSM",
+    "name": "Des Moines International Airport",
+    "city": "Ames",
+    "state": "IA"
+  },
+  {
+    "code": "DTW",
+    "name": "Detroit Metropolitan Wayne County Airport",
+    "city": "Ann Arbor",
+    "state": "MI"
+  },
+  {
+    "code": "ELP",
+    "name": "El Paso International Airport",
+    "city": "Las Cruces",
+    "state": "NM"
+  },
+  {
+    "code": "EUG",
+    "name": "Eugene Airport",
+    "city": "Eugene",
+    "state": "OR"
+  },
+  {
+    "code": "EWR",
+    "name": "Newark Liberty International Airport",
+    "city": "Princeton",
+    "state": "NJ"
+  },
+  {
+    "code": "FAI",
+    "name": "Fairbanks International Airport",
+    "city": "Fairbanks",
+    "state": "AK"
+  },
+  {
+    "code": "FAR",
+    "name": "Hector International Airport",
+    "city": "Fargo",
+    "state": "ND"
+  },
+  {
+    "code": "FLL",
+    "name": "Fort Lauderdale-Hollywood International Airport",
+    "city": "Boca Raton",
+    "state": "FL"
+  },
+  {
+    "code": "FSD",
+    "name": "Sioux Falls Regional Airport",
+    "city": "Brookings",
+    "state": "SD"
+  },
+  {
+    "code": "GEG",
+    "name": "Spokane International Airport",
+    "city": "Moscow",
+    "state": "ID"
+  },
+  {
+    "code": "GFK",
+    "name": "Grand Forks International Airport",
+    "city": "Grand Forks",
+    "state": "ND"
+  },
+  {
+    "code": "GNV",
+    "name": "Gainesville Regional Airport",
+    "city": "Gainesville",
+    "state": "FL"
+  },
+  {
+    "code": "GPT",
+    "name": "Gulfport-Biloxi International Airport",
+    "city": "Hattiesburg",
+    "state": "MS"
+  },
+  {
+    "code": "GSO",
+    "name": "Piedmont Triad International Airport",
+    "city": "Winston-Salem",
+    "state": "NC"
+  },
+  {
+    "code": "GSP",
+    "name": "Greenville-Spartanburg International Airport",
+    "city": "Clemson",
+    "state": "SC"
+  },
+  {
+    "code": "GTR",
+    "name": "Golden Triangle Regional Airport",
+    "city": "Starkville",
+    "state": "MS"
+  },
+  {
+    "code": "HNL",
+    "name": "Daniel K. Inouye International Airport",
+    "city": "Honolulu",
+    "state": "HI"
+  },
+  {
+    "code": "HOU",
+    "name": "William P. Hobby Airport",
+    "city": "Houston",
+    "state": "TX"
+  },
+  {
+    "code": "HSV",
+    "name": "Huntsville International Airport",
+    "city": "Huntsville",
+    "state": "AL"
+  },
+  {
+    "code": "IAD",
+    "name": "Washington Dulles International Airport",
+    "city": "Fairfax",
+    "state": "VA"
+  },
+  {
+    "code": "IAH",
+    "name": "George Bush Intercontinental Airport",
+    "city": "College Station",
+    "state": "TX"
+  },
+  {
+    "code": "ICT",
+    "name": "Wichita Dwight D. Eisenhower National Airport",
+    "city": "Wichita",
+    "state": "KS"
+  },
+  {
+    "code": "ILM",
+    "name": "Wilmington International Airport",
+    "city": "Wilmington",
+    "state": "NC"
+  },
+  {
+    "code": "IND",
+    "name": "Indianapolis International Airport",
+    "city": "Bloomington",
+    "state": "IN"
+  },
+  {
+    "code": "ITH",
+    "name": "Ithaca Tompkins International Airport",
+    "city": "Ithaca",
+    "state": "NY"
+  },
+  {
+    "code": "JAX",
+    "name": "Jacksonville International Airport",
+    "city": "Jacksonville",
+    "state": "FL"
+  },
+  {
+    "code": "JFK",
+    "name": "John F. Kennedy International Airport",
+    "city": "Stony Brook",
+    "state": "NY"
+  },
+  {
+    "code": "LAN",
+    "name": "Capital Region International Airport",
+    "city": "East Lansing",
+    "state": "MI"
+  },
+  {
+    "code": "LAS",
+    "name": "Harry Reid International Airport",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "code": "LAX",
+    "name": "Los Angeles International Airport",
+    "city": "Los Angeles",
+    "state": "CA"
+  },
+  {
+    "code": "LBB",
+    "name": "Lubbock Preston Smith International Airport",
+    "city": "Lubbock",
+    "state": "TX"
+  },
+  {
+    "code": "LEX",
+    "name": "Blue Grass Airport",
+    "city": "Lexington",
+    "state": "KY"
+  },
+  {
+    "code": "LFT",
+    "name": "Lafayette Regional Airport",
+    "city": "Lafayette",
+    "state": "LA"
+  },
+  {
+    "code": "LGA",
+    "name": "LaGuardia Airport",
+    "city": "New York",
+    "state": "NY"
+  },
+  {
+    "code": "LIT",
+    "name": "Clinton National Airport",
+    "city": "Conway",
+    "state": "AR"
+  },
+  {
+    "code": "LNK",
+    "name": "Lincoln Airport",
+    "city": "Lincoln",
+    "state": "NE"
+  },
+  {
+    "code": "MCI",
+    "name": "Kansas City International Airport",
+    "city": "Lawrence",
+    "state": "KS"
+  },
+  {
+    "code": "MCO",
+    "name": "Orlando International Airport",
+    "city": "Orlando",
+    "state": "FL"
+  },
+  {
+    "code": "MDT",
+    "name": "Harrisburg International Airport",
+    "city": "Harrisburg",
+    "state": "PA"
+  },
+  {
+    "code": "MDW",
+    "name": "Chicago Midway International Airport",
+    "city": "Chicago",
+    "state": "IL"
+  },
+  {
+    "code": "MEM",
+    "name": "Memphis International Airport",
+    "city": "Jonesboro",
+    "state": "AR"
+  },
+  {
+    "code": "MHK",
+    "name": "Manhattan Regional Airport",
+    "city": "Manhattan",
+    "state": "KS"
+  },
+  {
+    "code": "MHT",
+    "name": "Manchester-Boston Regional Airport",
+    "city": "Durham",
+    "state": "NH"
+  },
+  {
+    "code": "MIA",
+    "name": "Miami International Airport",
+    "city": "Miami",
+    "state": "FL"
+  },
+  {
+    "code": "MKE",
+    "name": "Milwaukee Mitchell International Airport",
+    "city": "Milwaukee",
+    "state": "WI"
+  },
+  {
+    "code": "MOB",
+    "name": "Mobile Regional Airport",
+    "city": "Mobile",
+    "state": "AL"
+  },
+  {
+    "code": "MSN",
+    "name": "Dane County Regional Airport",
+    "city": "Madison",
+    "state": "WI"
+  },
+  {
+    "code": "MSO",
+    "name": "Missoula Montana Airport",
+    "city": "Missoula",
+    "state": "MT"
+  },
+  {
+    "code": "MSP",
+    "name": "Minneapolis-Saint Paul International Airport",
+    "city": "Minneapolis",
+    "state": "MN"
+  },
+  {
+    "code": "MSY",
+    "name": "Louis Armstrong New Orleans International Airport",
+    "city": "New Orleans",
+    "state": "LA"
+  },
+  {
+    "code": "OAK",
+    "name": "Oakland International Airport",
+    "city": "Berkeley",
+    "state": "CA"
+  },
+  {
+    "code": "OKC",
+    "name": "Will Rogers World Airport",
+    "city": "Norman",
+    "state": "OK"
+  },
+  {
+    "code": "OMA",
+    "name": "Eppley Airfield",
+    "city": "Omaha",
+    "state": "NE"
+  },
+  {
+    "code": "ONT",
+    "name": "Ontario International Airport",
+    "city": "Riverside",
+    "state": "CA"
+  },
+  {
+    "code": "ORD",
+    "name": "Chicago O'Hare International Airport",
+    "city": "Evanston",
+    "state": "IL"
+  },
+  {
+    "code": "ORF",
+    "name": "Norfolk International Airport",
+    "city": "Williamsburg",
+    "state": "VA"
+  },
+  {
+    "code": "PDX",
+    "name": "Portland International Airport",
+    "city": "Corvallis",
+    "state": "OR"
+  },
+  {
+    "code": "PHL",
+    "name": "Philadelphia International Airport",
+    "city": "Newark",
+    "state": "DE"
+  },
+  {
+    "code": "PHX",
+    "name": "Phoenix Sky Harbor International Airport",
+    "city": "Tempe",
+    "state": "AZ"
+  },
+  {
+    "code": "PIT",
+    "name": "Pittsburgh International Airport",
+    "city": "Pittsburgh",
+    "state": "PA"
+  },
+  {
+    "code": "PVD",
+    "name": "Rhode Island T.F. Green International Airport",
+    "city": "Providence",
+    "state": "RI"
+  },
+  {
+    "code": "PWM",
+    "name": "Portland International Jetport",
+    "city": "Brunswick",
+    "state": "ME"
+  },
+  {
+    "code": "RDU",
+    "name": "Raleigh-Durham International Airport",
+    "city": "Chapel Hill",
+    "state": "NC"
+  },
+  {
+    "code": "RIC",
+    "name": "Richmond International Airport",
+    "city": "Richmond",
+    "state": "VA"
+  },
+  {
+    "code": "RNO",
+    "name": "Reno-Tahoe International Airport",
+    "city": "Reno",
+    "state": "NV"
+  },
+  {
+    "code": "ROA",
+    "name": "Roanoke-Blacksburg Regional Airport",
+    "city": "Blacksburg",
+    "state": "VA"
+  },
+  {
+    "code": "ROC",
+    "name": "Frederick Douglass Greater Rochester International Airport",
+    "city": "Rochester",
+    "state": "NY"
+  },
+  {
+    "code": "SAN",
+    "name": "San Diego International Airport",
+    "city": "San Diego",
+    "state": "CA"
+  },
+  {
+    "code": "SAT",
+    "name": "San Antonio International Airport",
+    "city": "San Antonio",
+    "state": "TX"
+  },
+  {
+    "code": "SBA",
+    "name": "Santa Barbara Airport",
+    "city": "Santa Barbara",
+    "state": "CA"
+  },
+  {
+    "code": "SBN",
+    "name": "South Bend International Airport",
+    "city": "Notre Dame",
+    "state": "IN"
+  },
+  {
+    "code": "SCE",
+    "name": "State College Regional Airport",
+    "city": "University Park",
+    "state": "PA"
+  },
+  {
+    "code": "SDF",
+    "name": "Louisville Muhammad Ali International Airport",
+    "city": "Louisville",
+    "state": "KY"
+  },
+  {
+    "code": "SEA",
+    "name": "Seattle-Tacoma International Airport",
+    "city": "Seattle",
+    "state": "WA"
+  },
+  {
+    "code": "SFO",
+    "name": "San Francisco International Airport",
+    "city": "Stanford",
+    "state": "CA"
+  },
+  {
+    "code": "SGF",
+    "name": "Springfield-Branson National Airport",
+    "city": "Springfield",
+    "state": "MO"
+  },
+  {
+    "code": "SJC",
+    "name": "Norman Y. Mineta San Jose International Airport",
+    "city": "Santa Clara",
+    "state": "CA"
+  },
+  {
+    "code": "SLC",
+    "name": "Salt Lake City International Airport",
+    "city": "Salt Lake City",
+    "state": "UT"
+  },
+  {
+    "code": "SMF",
+    "name": "Sacramento International Airport",
+    "city": "Davis",
+    "state": "CA"
+  },
+  {
+    "code": "SNA",
+    "name": "John Wayne Airport",
+    "city": "Irvine",
+    "state": "CA"
+  },
+  {
+    "code": "STL",
+    "name": "St. Louis Lambert International Airport",
+    "city": "Columbia",
+    "state": "MO"
+  },
+  {
+    "code": "SUX",
+    "name": "Sioux Gateway Airport",
+    "city": "Vermillion",
+    "state": "SD"
+  },
+  {
+    "code": "SYR",
+    "name": "Syracuse Hancock International Airport",
+    "city": "Syracuse",
+    "state": "NY"
+  },
+  {
+    "code": "TLH",
+    "name": "Tallahassee International Airport",
+    "city": "Tallahassee",
+    "state": "FL"
+  },
+  {
+    "code": "TPA",
+    "name": "Tampa International Airport",
+    "city": "Tampa",
+    "state": "FL"
+  },
+  {
+    "code": "TUL",
+    "name": "Tulsa International Airport",
+    "city": "Tulsa",
+    "state": "OK"
+  },
+  {
+    "code": "TUS",
+    "name": "Tucson International Airport",
+    "city": "Tucson",
+    "state": "AZ"
+  },
+  {
+    "code": "TYS",
+    "name": "McGhee Tyson Airport",
+    "city": "Knoxville",
+    "state": "TN"
+  },
+  {
+    "code": "XNA",
+    "name": "Northwest Arkansas National Airport",
+    "city": "Fayetteville",
+    "state": "AR"
+  },
+  {
+    "code": "AMS",
+    "name": "Amsterdam Airport Schiphol",
+    "city": "Amsterdam",
+    "state": "NL"
+  },
+  {
+    "code": "ATH",
+    "name": "Athens International Airport",
+    "city": "Athens",
+    "state": "GR"
+  },
+  {
+    "code": "AUH",
+    "name": "Abu Dhabi International Airport",
+    "city": "Abu Dhabi",
+    "state": "AE"
+  },
+  {
+    "code": "BCN",
+    "name": "Josep Tarradellas Barcelona-El Prat Airport",
+    "city": "Barcelona",
+    "state": "ES"
+  },
+  {
+    "code": "BKK",
+    "name": "Suvarnabhumi Airport",
+    "city": "Bangkok",
+    "state": "TH"
+  },
+  {
+    "code": "BOG",
+    "name": "El Dorado International Airport",
+    "city": "Bogota",
+    "state": "CO"
+  },
+  {
+    "code": "BOM",
+    "name": "Chhatrapati Shivaji Maharaj International Airport",
+    "city": "Mumbai",
+    "state": "IN"
+  },
+  {
+    "code": "CPT",
+    "name": "Cape Town International Airport",
+    "city": "Cape Town",
+    "state": "ZA"
+  },
+  {
+    "code": "CDG",
+    "name": "Charles de Gaulle Airport",
+    "city": "Paris",
+    "state": "FR"
+  },
+  {
+    "code": "CUN",
+    "name": "Cancun International Airport",
+    "city": "Cancun",
+    "state": "MX"
+  },
+  {
+    "code": "DEL",
+    "name": "Indira Gandhi International Airport",
+    "city": "New Delhi",
+    "state": "IN"
+  },
+  {
+    "code": "DOH",
+    "name": "Hamad International Airport",
+    "city": "Doha",
+    "state": "QA"
+  },
+  {
+    "code": "DUB",
+    "name": "Dublin Airport",
+    "city": "Dublin",
+    "state": "IE"
+  },
+  {
+    "code": "DXB",
+    "name": "Dubai International Airport",
+    "city": "Dubai",
+    "state": "AE"
+  },
+  {
+    "code": "EZE",
+    "name": "Ministro Pistarini International Airport",
+    "city": "Buenos Aires",
+    "state": "AR"
+  },
+  {
+    "code": "FCO",
+    "name": "Leonardo da Vinci Rome Fiumicino Airport",
+    "city": "Rome",
+    "state": "IT"
+  },
+  {
+    "code": "FRA",
+    "name": "Frankfurt Airport",
+    "city": "Frankfurt",
+    "state": "DE"
+  },
+  {
+    "code": "GRU",
+    "name": "Sao Paulo-Guarulhos International Airport",
+    "city": "Sao Paulo",
+    "state": "BR"
+  },
+  {
+    "code": "HKG",
+    "name": "Hong Kong International Airport",
+    "city": "Hong Kong",
+    "state": "HK"
+  },
+  {
+    "code": "HND",
+    "name": "Tokyo Haneda Airport",
+    "city": "Tokyo",
+    "state": "JP"
+  },
+  {
+    "code": "ICN",
+    "name": "Incheon International Airport",
+    "city": "Seoul",
+    "state": "KR"
+  },
+  {
+    "code": "IST",
+    "name": "Istanbul Airport",
+    "city": "Istanbul",
+    "state": "TR"
+  },
+  {
+    "code": "JNB",
+    "name": "O.R. Tambo International Airport",
+    "city": "Johannesburg",
+    "state": "ZA"
+  },
+  {
+    "code": "LHR",
+    "name": "London Heathrow Airport",
+    "city": "London",
+    "state": "GB"
+  },
+  {
+    "code": "LIM",
+    "name": "Jorge Chavez International Airport",
+    "city": "Lima",
+    "state": "PE"
+  },
+  {
+    "code": "LIS",
+    "name": "Humberto Delgado Airport",
+    "city": "Lisbon",
+    "state": "PT"
+  },
+  {
+    "code": "MAD",
+    "name": "Adolfo Suarez Madrid-Barajas Airport",
+    "city": "Madrid",
+    "state": "ES"
+  },
+  {
+    "code": "MEL",
+    "name": "Melbourne Airport",
+    "city": "Melbourne",
+    "state": "AU"
+  },
+  {
+    "code": "MEX",
+    "name": "Benito Juarez International Airport",
+    "city": "Mexico City",
+    "state": "MX"
+  },
+  {
+    "code": "MUC",
+    "name": "Munich Airport",
+    "city": "Munich",
+    "state": "DE"
+  },
+  {
+    "code": "NRT",
+    "name": "Narita International Airport",
+    "city": "Tokyo",
+    "state": "JP"
+  },
+  {
+    "code": "PEK",
+    "name": "Beijing Capital International Airport",
+    "city": "Beijing",
+    "state": "CN"
+  },
+  {
+    "code": "PVG",
+    "name": "Shanghai Pudong International Airport",
+    "city": "Shanghai",
+    "state": "CN"
+  },
+  {
+    "code": "SIN",
+    "name": "Singapore Changi Airport",
+    "city": "Singapore",
+    "state": "SG"
+  },
+  {
+    "code": "SYD",
+    "name": "Sydney Kingsford Smith Airport",
+    "city": "Sydney",
+    "state": "AU"
+  },
+  {
+    "code": "VIE",
+    "name": "Vienna International Airport",
+    "city": "Vienna",
+    "state": "AT"
+  },
+  {
+    "code": "YUL",
+    "name": "Montreal-Trudeau International Airport",
+    "city": "Montreal",
+    "state": "CA"
+  },
+  {
+    "code": "YVR",
+    "name": "Vancouver International Airport",
+    "city": "Vancouver",
+    "state": "CA"
+  },
+  {
+    "code": "YYZ",
+    "name": "Toronto Pearson International Airport",
+    "city": "Toronto",
+    "state": "CA"
+  }
+]

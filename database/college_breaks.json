@@ -1,0 +1,76 @@
+{
+  "Indiana University Bloomington": [
+    {
+      "break_name": "Fall Break",
+      "start_date": "2025-10-10",
+      "end_date": "2025-10-12",
+      "source": "https://calendars.registrar.indiana.edu/official-calendar/index.shtml/non-standard/index.shtml?result=HTM&sesn=INT&term=4258"
+    },
+    {
+      "break_name": "Thanksgiving Break",
+      "start_date": "2025-11-23",
+      "end_date": "2025-11-30",
+      "source": "https://calendars.registrar.indiana.edu/official-calendar/index.shtml/non-standard/index.shtml?result=HTM&sesn=INT&term=4258"
+    },
+    {
+      "break_name": "Spring Break",
+      "start_date": "2026-03-15",
+      "end_date": "2026-03-22",
+      "source": "https://calendars.registrar.indiana.edu/official-calendar/index.shtml?event=0&session=0&term=4262"
+    }
+  ],
+  "University of Michigan": [
+    {
+      "break_name": "Fall Break",
+      "start_date": "2026-10-19",
+      "end_date": "2026-10-20",
+      "source": "https://ro.umich.edu/sites/default/files/calendar/pdfs/Cal_2026-2027.pdf"
+    },
+    {
+      "break_name": "Thanksgiving Break",
+      "start_date": "2026-11-25",
+      "end_date": "2026-11-27",
+      "source": "https://ro.umich.edu/sites/default/files/calendar/pdfs/Cal_2026-2027.pdf"
+    },
+    {
+      "break_name": "Spring Break",
+      "start_date": "2027-03-06",
+      "end_date": "2027-03-14",
+      "source": "https://ro.umich.edu/sites/default/files/calendar/pdfs/Cal_2026-2027.pdf"
+    }
+  ],
+  "University of North Carolina at Chapel Hill": [
+    {
+      "break_name": "Fall Break",
+      "start_date": "2025-10-16",
+      "end_date": "2025-10-17",
+      "source": "https://catalog.unc.edu/academic-calendar/"
+    },
+    {
+      "break_name": "Thanksgiving Break",
+      "start_date": "2025-11-26",
+      "end_date": "2025-11-28",
+      "source": "https://catalog.unc.edu/academic-calendar/"
+    },
+    {
+      "break_name": "Spring Break",
+      "start_date": "2026-03-13",
+      "end_date": "2026-03-22",
+      "source": "https://catalog.unc.edu/academic-calendar/"
+    }
+  ],
+  "University of Texas at Austin": [
+    {
+      "break_name": "Thanksgiving Break",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-28",
+      "source": "https://registrar.utexas.edu/calendars/26-27"
+    },
+    {
+      "break_name": "Spring Break",
+      "start_date": "2027-03-15",
+      "end_date": "2027-03-20",
+      "source": "https://registrar.utexas.edu/calendars/26-27"
+    }
+  ]
+}
