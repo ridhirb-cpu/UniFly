@@ -70,3 +70,4 @@ VITE_API_URL=http://localhost:4000/api
 - Schema lives in [database/schema.sql](/Users/ridhimabhimavarapu/Documents/CampusRide/database/schema.sql).
 - Seed logic lives in [database/seed.js](/Users/ridhimabhimavarapu/Documents/CampusRide/database/seed.js).
 # UniFly
+# UniFly
