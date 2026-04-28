@@ -69,9 +69,6 @@ export function AuthPage() {
       <section className="rounded-[32px] bg-ink p-8 text-white shadow-panel">
         <div className="text-sm font-semibold uppercase tracking-[0.2em] text-sand">Verified student access</div>
         <h1 className="mt-4 text-4xl font-semibold leading-tight">{title}</h1> 
-        <h1 style={{ color: "red", marginTop: "10px" }}>
-        VERSION CHECK 999
-      </h1>
         <p className="mt-4 text-sm leading-7 text-slate-300">
           Sign in with your `.edu` address, set your campus, and start planning flights home around school breaks.
         </p>
