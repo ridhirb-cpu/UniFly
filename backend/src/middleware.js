@@ -28,7 +28,7 @@ export function requireAuth(req, res, next) {
     const payload = jwt.verify(token, JWT_SECRET);
     const user = db
       .prepare(
-        `SELECT id, email, first_name, last_name, college_id, home_airport, role
+        `SELECT id, email, first_name, last_name, college_id, home_airport, role, is_verified, is_demo
          FROM users
          WHERE id = ?`
       )

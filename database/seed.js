@@ -48,8 +48,8 @@ const insertDeal = db.prepare(
 );
 
 const insertUser = db.prepare(
-  `INSERT INTO users (first_name, last_name, email, password_hash, college_id, home_airport, is_verified, role)
-   VALUES (?, ?, ?, ?, ?, ?, 1, ?)`
+  `INSERT INTO users (first_name, last_name, email, password_hash, college_id, home_airport, is_verified, is_demo, verification_token, role)
+   VALUES (?, ?, ?, ?, ?, ?, 1, ?, NULL, ?)`
 );
 
 const insertRide = db.prepare(
@@ -160,6 +160,7 @@ for (const user of sampleUsers) {
     passwordHash,
     collegeMap.get(user.collegeName),
     user.homeAirport,
+    user.isDemo ? 1 : 0,
     user.role
   );
   userIds.push(result.lastInsertRowid);

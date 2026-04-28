@@ -48,6 +48,12 @@ function runMigrations() {
     if (!columnExists("users", "home_airport")) {
       db.exec("ALTER TABLE users ADD COLUMN home_airport TEXT");
     }
+    if (!columnExists("users", "is_demo")) {
+      db.exec("ALTER TABLE users ADD COLUMN is_demo INTEGER NOT NULL DEFAULT 0");
+    }
+    if (!columnExists("users", "verification_token")) {
+      db.exec("ALTER TABLE users ADD COLUMN verification_token TEXT");
+    }
   }
 
   if (db.prepare("SELECT name FROM sqlite_master WHERE type = 'table' AND name = 'trip_plans'").get()) {

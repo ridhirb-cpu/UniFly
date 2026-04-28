@@ -17,7 +17,7 @@ router.get("/", (req, res) => {
        FROM friends f
        JOIN users u ON u.id = f.requester_id
        JOIN colleges c ON c.id = u.college_id
-       WHERE f.receiver_id = ? AND f.status = 'pending'
+       WHERE f.receiver_id = ? AND f.status = 'pending' AND u.is_demo = 0
        ORDER BY f.created_at DESC`
     )
     .all(req.user.id);
@@ -29,7 +29,7 @@ router.get("/", (req, res) => {
        FROM friends f
        JOIN users u ON u.id = f.receiver_id
        JOIN colleges c ON c.id = u.college_id
-       WHERE f.requester_id = ? AND f.status = 'pending'
+       WHERE f.requester_id = ? AND f.status = 'pending' AND u.is_demo = 0
        ORDER BY f.created_at DESC`
     )
     .all(req.user.id);
@@ -49,6 +49,7 @@ router.get("/search", (req, res) => {
        FROM users u
        JOIN colleges c ON c.id = u.college_id
        WHERE u.id != ?
+         AND u.is_demo = 0
          AND (
            u.first_name LIKE ?
            OR u.last_name LIKE ?

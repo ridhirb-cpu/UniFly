@@ -17,6 +17,8 @@ CREATE TABLE IF NOT EXISTS users (
   college_id INTEGER NOT NULL,
   home_airport TEXT,
   is_verified INTEGER NOT NULL DEFAULT 0,
+  is_demo INTEGER NOT NULL DEFAULT 0,
+  verification_token TEXT,
   role TEXT NOT NULL DEFAULT 'student',
   created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
   FOREIGN KEY (college_id) REFERENCES colleges (id)

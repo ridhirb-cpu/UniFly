@@ -19,6 +19,7 @@ export function getAcceptedFriends(userId) {
        JOIN colleges c ON c.id = u.college_id
        WHERE (f.requester_id = ? OR f.receiver_id = ?)
          AND f.status = 'accepted'
+         AND u.is_demo = 0
        ORDER BY u.first_name, u.last_name`
     )
     .all(userId, userId, userId, userId);

@@ -42,9 +42,11 @@ router.get("/", requireAuth, (req, res) => {
 
   const airportRides = db
     .prepare(
-      `SELECT id, departure_airport, departure_datetime, meeting_location, flight_id
-       FROM ride_posts
+      `SELECT r.id, r.departure_airport, r.departure_datetime, r.meeting_location, r.flight_id
+       FROM ride_posts r
+       JOIN users u ON u.id = r.creator_id
        WHERE college_id = ? AND departure_datetime >= datetime('now')
+         AND u.is_demo = 0
        ORDER BY departure_datetime ASC
        LIMIT 6`
     )

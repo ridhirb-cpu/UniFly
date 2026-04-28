@@ -266,7 +266,8 @@ export const sampleUsers = [
     password: "Admin123!",
     collegeName: "University of Texas at Austin",
     homeAirport: "JFK",
-    role: "admin"
+    role: "admin",
+    isDemo: true
   },
   {
     firstName: "Maya",
@@ -275,7 +276,8 @@ export const sampleUsers = [
     password: "Student123!",
     collegeName: "University of Texas at Austin",
     homeAirport: "JFK",
-    role: "student"
+    role: "student",
+    isDemo: true
   },
   {
     firstName: "Daniel",
@@ -284,7 +286,8 @@ export const sampleUsers = [
     password: "Student123!",
     collegeName: "University of Michigan",
     homeAirport: "LAX",
-    role: "student"
+    role: "student",
+    isDemo: true
   },
   {
     firstName: "Aisha",
@@ -293,6 +296,7 @@ export const sampleUsers = [
     password: "Student123!",
     collegeName: "University of North Carolina at Chapel Hill",
     homeAirport: "ATL",
-    role: "student"
+    role: "student",
+    isDemo: true
   }
 ];

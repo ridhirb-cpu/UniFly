@@ -22,6 +22,7 @@ router.get("/", (req, res) => {
        JOIN colleges c ON c.id = r.college_id
        JOIN users u ON u.id = r.creator_id
        WHERE CAST(r.college_id AS TEXT) LIKE ?
+         AND u.is_demo = 0
          AND r.departure_airport LIKE ?
          AND r.departure_datetime LIKE ?
        ORDER BY r.departure_datetime ASC`
